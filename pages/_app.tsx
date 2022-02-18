@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <div className={'bg-gradient-to-r from-green-500 to-fuchsia-500 h-screen'}><Component {...pageProps} /><Footer/></div>
+      <div><Component {...pageProps} /><Footer/></div>
   )
 }
 
